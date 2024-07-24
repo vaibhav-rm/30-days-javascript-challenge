@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        #hoverElement {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Handling Tasks</h1>
+
+    <!-- Task 1: Click event to change paragraph text -->
+    <button id="changeTextButton">Change Text</button>
+    <p id="textParagraph">This text will change when the button is clicked.</p>
+
+    <!-- Task 2: Double-click event to toggle image visibility -->
+    <img id="toggleImage" src="example.jpg" alt="Example Image" width="200">
+
+    <!-- Task 3 & 4: Mouseover and mouseout events -->
+    <div id="hoverElement">Hover over me!</div>
+
+    <!-- Task 5 & 6: Keyboard events -->
+    <input type="text" id="keyInput" placeholder="Type something...">
+    <p id="displayInput">Typed value will appear here.</p>
+
+    <!-- Task 7 & 8: Form and select events -->
+    <form id="exampleForm">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+        <button type="submit">Submit</button>
+    </form>
+
+    <select id="dropdown">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+    </select>
+    <p id="selectedValue">Selected value will appear here.</p>
+
+    <!-- Task 9 & 10: Event delegation -->
+    <ul id="itemList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <button id="addItemButton">Add Item</button>
+
+    <script src="day10.js"></script>
+</body>
+</html>
