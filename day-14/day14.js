@@ -10,3 +10,7 @@ class Person {
     }
 
 }
+
+person = new Person("vaibhav", 18);
+person.greet();
+
